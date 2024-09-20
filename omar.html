@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Tasty Bistro</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h1>Welcome to The Tasty Bistro</h1>
+            <p>Experience the flavors of the world at our cozy restaurant.</p>
+            <button>Make a Reservation</button>
+        </section>
+        <section id="menu">
+            <h2>Our Menu</h2>
+            <ul>
+                <li>
+                    <h3>Appetizers</h3>
+                    <ul>
+                        <li>Bruschetta ($8)</li>
+                        <li>Spinach and Artichoke Dip ($10)</li>
+                    </ul>
+                </li>
+                <li>
+                    <h3>Entrees</h3>
+                    <ul>
+                        <li>Grilled Salmon ($25)</li>
+                        <li>Vegetarian Quinoa Bowl ($18)</li>
+                    </ul>
+                </li>
+                <li>
+                    <h3>Desserts</h3>
+                    <ul>
+                        <li>Chocolate Lava Cake ($8)</li>
+                        <li>Cheesecake ($10)</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>The Tasty Bistro is a family-owned restaurant dedicated to serving delicious food and providing exceptional customer service.</p>
+        </section>
+        <section id="contact">
+            <h2>Get in Touch</h2>
+            <p>Phone: 555-555-5555</p>
+            <p>Email: [info@thetastybistro.com](mailto:info@thetastybistro.com)</p>
+            <p>Address: 123 Main St, Anytown, USA</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 The Tasty Bistro</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #333;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+section {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h3 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #444;
+}
